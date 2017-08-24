@@ -33,8 +33,9 @@ static int	give_usage(void)
 {
 	ft_putstr("\n\x1b[33m./fractol \x1b[37m[julia] [mandel] [evolve] [star] \
 [person] [swirl]\n");
-	ft_putstr("\n\x1b[33mkeys:\x1b[37m\n\tw a s d - move\n\tq e / mouse scroll - zoom\n\
-\tr - sharpen image\n\tf - reset veiw\n\tz x - change iterations\n\ttab - \
+	ft_putstr("\n\x1b[33mkeys:\x1b[37m\n\tw a s d - move\n\tq e / mouse scroll \
+- zoom\n\tr - sharpen image\n\tf - reset veiw\n\tz x - change iterations\n\
+\ttab - \
 change colour scheme\n\tspace - mutate fractal (while holding)\n\n");
 	exit(1);
 }
